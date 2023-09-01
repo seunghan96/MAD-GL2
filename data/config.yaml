@@ -1,0 +1,251 @@
+METR-LA:
+   data : 'data/METR-LA'
+   adjdata : 'data/sensor_graph/adj_mx.pkl'
+   gaf_mid_ch : 128
+   num_graphs : 11
+   num_nodes : 207
+   blocks : 4
+   layers : 2
+   epochs : 100
+   input_dim : 2
+   input_length : 12 
+   output_length : 12
+   nhid : 32
+   learning_rate : 0.001
+   batch_size : 128
+
+PEMS-BAY:
+   data : 'data/PEMS-BAY'
+   adjdata : 'data/sensor_graph/adj_mx_bay.pkl'
+   gaf_mid_ch : 128
+   num_graphs : 9
+   num_nodes : 325
+   blocks : 4
+   layers : 2
+   epochs : 100
+   input_dim : 2
+   input_length : 12 
+   output_length : 12
+   nhid : 32
+   learning_rate : 0.001
+   batch_size : 128
+
+NASDAQ10:
+   data : 'data/NASDAQ10'
+   adjdata : False
+   gaf_mid_ch : 128
+   num_graphs : 3
+   num_nodes : 10
+   blocks : 4
+   layers : 3
+   epochs : 300
+   input_dim : 1
+   input_length : 15 
+   output_length : 5
+   nhid : 32
+   learning_rate : 0.0001
+   batch_size : 128
+
+NASDAQ50:
+   data : 'data/NASDAQ50'
+   adjdata : False
+   gaf_mid_ch : 256
+   num_graphs : 6
+   num_nodes : 50
+   blocks : 4
+   layers : 3
+   epochs : 300
+   input_dim : 1
+   input_length : 15 
+   output_length : 5
+   nhid : 32
+   learning_rate : 0.0001
+   batch_size : 128
+
+EXCHANGE_H3:
+   data : 'data/EXCHANGE_H3'
+   adjdata : False
+   gaf_mid_ch : 128
+   num_graphs : 6
+   num_nodes : 8
+   blocks : 4
+   layers : 6
+   epochs : 30
+   input_dim : 1
+   input_length : 168 
+   output_length : 1
+   nhid : 32
+   learning_rate : 0.0001
+   
+EXCHANGE_H6:
+   data : 'data/EXCHANGE_H6'
+   adjdata : False
+   gaf_mid_ch : 256
+   num_graphs : 3
+   num_nodes : 8
+   blocks : 4
+   layers : 6
+   epochs : 30
+   input_dim : 1
+   input_length : 168 
+   output_length : 1
+   nhid : 32
+   learning_rate : 0.0001
+
+EXCHANGE_H12:
+   data : 'data/EXCHANGE_H12'
+   adjdata : False
+   gaf_mid_ch : 256
+   num_graphs : 9
+   num_nodes : 8
+   blocks : 4
+   layers : 6
+   epochs : 50
+   input_dim : 1
+   input_length : 168 
+   output_length : 1
+   nhid : 32
+   learning_rate : 0.0001
+
+EXCHANGE_H24:
+   data : 'data/EXCHANGE_H24'
+   adjdata : False
+   gaf_mid_ch : 128
+   num_graphs : 9
+   num_nodes : 8
+   blocks : 4
+   layers : 6
+   epochs : 30
+   input_dim : 1
+   input_length : 168 
+   output_length : 1
+   nhid : 32
+   learning_rate : 0.0001
+   
+ELECTRICITY_H3:
+   data : 'data/ELECTRICITY_H3'
+   adjdata : False
+   gaf_mid_ch : 128
+   num_graphs : 3
+   num_nodes : 321
+   blocks : 4
+   layers : 4
+   epochs : 30
+   input_dim : 1
+   input_length : 48 
+   output_length : 1
+   nhid : 16
+   learning_rate : 0.0001
+   batch_size : 32
+   
+ELECTRICITY_H6:
+   data : 'data/ELECTRICITY_H6'
+   adjdata : False
+   gaf_mid_ch : 128
+   num_graphs : 6
+   num_nodes : 321
+   blocks : 4
+   layers : 4
+   epochs : 30
+   input_dim : 1
+   input_length : 48 
+   output_length : 1
+   nhid : 16
+   learning_rate : 0.0001
+   batch_size : 32
+   
+ELECTRICITY_H12:
+   data : 'data/ELECTRICITY_H12'
+   adjdata : False
+   gaf_mid_ch : 128
+   num_graphs : 3
+   num_nodes : 321
+   blocks : 4
+   layers : 4
+   epochs : 30
+   input_dim : 1
+   input_length : 48 
+   output_length : 1
+   nhid : 16
+   learning_rate : 0.0001
+   batch_size : 32
+   
+ELECTRICITY_H24:
+   data : 'data/ELECTRICITY_H24'
+   adjdata : False
+   gaf_mid_ch : 32
+   num_graphs : 9
+   num_nodes : 321
+   blocks : 4
+   layers : 4
+   epochs : 30
+   input_dim : 1
+   input_length : 48 
+   output_length : 1
+   nhid : 16
+   learning_rate : 0.0001
+   batch_size : 32
+   
+PEMS03:
+   data : 'data/PEMS03'
+   adjdata : False
+   gaf_mid_ch : 128
+   num_graphs : 5
+   num_nodes : 358
+   blocks : 4
+   layers : 2
+   epochs : 100
+   input_dim : 1
+   input_length : 12 
+   output_length : 12
+   nhid : 32
+   learning_rate : 0.001
+   batch_size : 128
+
+PEMS04:
+   data : 'data/PEMS04'
+   adjdata : False
+   gaf_mid_ch : 128
+   num_graphs : 9
+   num_nodes : 307
+   blocks : 4
+   layers : 2
+   epochs : 100
+   input_dim : 1
+   input_length : 12 
+   output_length : 12
+   nhid : 32
+   learning_rate : 0.001
+   batch_size : 128   
+
+PEMS07:
+   data : 'data/PEMS07'
+   adjdata : False
+   gaf_mid_ch : 128
+   num_graphs : 1
+   num_nodes : 883
+   blocks : 4
+   layers : 2
+   epochs : 100
+   input_dim : 1
+   input_length : 12 
+   output_length : 12
+   nhid : 32
+   learning_rate : 0.001
+   batch_size : 128      
+
+PEMS08:
+   data : 'data/PEMS08'
+   adjdata : False
+   gaf_mid_ch : 128
+   num_graphs : 9
+   num_nodes : 170
+   blocks : 4
+   layers : 2
+   epochs : 100
+   input_dim : 1
+   input_length : 12 
+   output_length : 12
+   nhid : 32
+   learning_rate : 0.001
+   batch_size : 128 
